@@ -1,2 +1,2 @@
-# jQuery-Simple-Tabs
-jQuery | Simple Tabs
+# jQuery-SimpleTabs
+jQuery | SimpleTabs
