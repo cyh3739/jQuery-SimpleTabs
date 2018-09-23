@@ -4,7 +4,7 @@ jQuery | SimpleTabs
 ### License
 MIT license - http://opensource.org/licenses/MIT
 
-![simpleTabs](./simpleTabs3.png)
+![simpleTabs](./simpleTabs.png)
 
 ### Set up
 
