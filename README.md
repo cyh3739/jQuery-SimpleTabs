@@ -1,7 +1,7 @@
 # jQuery-SimpleTabs
 jQuery | SimpleTabs
 
-### License
+## License
 MIT license - http://opensource.org/licenses/MIT
 
 ### Set up
