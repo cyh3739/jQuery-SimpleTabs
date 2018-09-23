@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0, user-scalable=no">
+
+        <title>Simple Tabs</title>
+        <link rel="stylesheet" href="./simpleTabs.css">
+
+        <!--jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--[if lt IE 9]> <script src="http://code.jquery.com/jquery-1.9.1.js"></script> <![endif]-->
+        <script src="./simpleTabs.min.js"></script>
+	
+</head>
+<body style="width:100%; max-width:720px; margin:100px auto 0;">
+           
+           
+        <!--=== SIMPLE TABS (Basic) ===-->
+        <div class="simpleTabs">
+            <div data-st-title="Button 01">Contents 01 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, temporibus blanditiis quod ipsa eaque</div>
+            <div data-st-title="Button 02">Contents 02 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+            <div data-st-title="Button 03">Contents 03 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit consequatur</div>
+            <div data-st-title="Button 04">Contents 04 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit consequatur, ipsum ullam, vero quo</div>
+            <div data-st-title="Button 05">Contents 05 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit consequatur, ipsum ullam</div>
+        </div>                   
+    
+        
+        <!--=== SIMPLE TABS (Custom Style) ===-->
+        <div class="customStyleTabs">
+            <div data-st-title="Button 01">Contents 01 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, temporibus blanditiis quod ipsa eaque</div>
+            <div data-st-title="Button 02">Contents 02 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+            <div data-st-title="Button 03">Contents 03 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit consequatur</div>
+            <div data-st-title="Button 04">Contents 04 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit consequatur, ipsum ullam, vero quo</div>
+            <div data-st-title="Button 05">Contents 05 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit consequatur, ipsum ullam</div>
+        </div>      
+        
+        
+        
+        <script>
+            $('.simpleTabs').simpleTabs();
+            $('.customStyleTabs').simpleTabs();
+        </script>
+        
+        <style>
+            /*=== Custom Style [Example] ===*/
+            
+            /*button - (simpleTabs_button)*/
+            .customStyleTabs>.simpleTabs_button>li{margin:0 5px 0 0; border:1px solid #adb5bd; color:#333; }
+            .customStyleTabs>.simpleTabs_button>li.active{background:#e9ecef; border-bottom:1px solid #e9ecef; }
+            /*contents - (simpleTabs_contents)*/
+            .customStyleTabs>.simpleTabs_contents{margin-top:-1px; padding:5px 10px; background:#e9ecef; color:#333; border:1px solid #adb5bd; }
+        </style>    
+
+</body>
+</html>
