@@ -11,18 +11,16 @@ MIT license - http://opensource.org/licenses/MIT
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!--[if lt IE 9]> <script src="http://code.jquery.com/jquery-1.9.1.js"></script> <![endif]-->
 
-<!-- simpleTabs.css & simpleTabs.min.js -->
+<!-- simpleTabs | Css & JavaScript -->
 <link rel="stylesheet" href="./simpleTabs.css">
 <script src="./simpleTabs.min.js"></script>
-
-<!-- Call the simpleTabs -->
 <script>
 $(document).ready(function(){
     $('.simpleTabs').simpleTabs();
 });  
 </script>
 
-<!--=== simpleTabs(Basic) ===-->
+<!--=== simpleTabs | Html(Basic) ===-->
 <div class="simpleTabs">
             <div data-st-title="Button01"> Contents... </div>
             <div data-st-title="Button02"> Contents... </div>
@@ -31,7 +29,9 @@ $(document).ready(function(){
 
 ```
 
+
 ##
+
 
 ### Custom Style - [Example]
 
