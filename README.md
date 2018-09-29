@@ -42,10 +42,10 @@ $(function(){
 ### Custom Style - [Example]
 
 ```css
-/*button - (.simpleTabs_button)*/
-.simpleTabs>.simpleTabs_button>li{margin:0 5px 0 0; border:1px solid #adb5bd; color:#333; }
-.simpleTabs>.simpleTabs_button>li.active{background:#e9ecef; border-bottom:1px solid #e9ecef; }
+/*button*/
+.simpleTabs_button>li{margin:0 5px 0 0; border:1px solid #adb5bd; color:#333; }
+.simpleTabs_button>li.active{background:#e9ecef; border-bottom:1px solid #e9ecef; }
 
-/*contents - (.simpleTabs_contents)*/
-.simpleTabs>.simpleTabs_contents{margin-top:-1px; padding:5px 10px; background:#e9ecef; color:#333; border:1px solid #adb5bd; }
+/*contents*/
+.simpleTabs_contents{margin-top:-1px; padding:5px 10px; background:#e9ecef; color:#333; border:1px solid #adb5bd; }
 ```
