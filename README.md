@@ -39,7 +39,7 @@ $(function(){
 ##
 
 
-### Custom Style - [Example]
+### Custom Style
 
 ```css
 /*button*/
